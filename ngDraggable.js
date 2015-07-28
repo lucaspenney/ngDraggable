@@ -119,7 +119,7 @@ angular.module("ngDraggable", [])
                         return;
                     }
 
-                    if (_hasTouch) {
+                    if (_hasTouch || true) {
                         cancelPress();
                         _pressTimer = setTimeout(function() {
                             cancelPress();
